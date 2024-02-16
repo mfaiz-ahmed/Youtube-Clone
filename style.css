@@ -4,7 +4,6 @@ box-sizing: border-box;}
 
 html{font-size: 62.5%;}
 
-
 aside{padding: 30px;
 display: flex;
 flex-direction: column;
@@ -23,7 +22,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items:center;
-    position: fixed;
+    position: absolute;
     top: 0;
     gap: 15px;
     margin-left: 70px;
@@ -56,7 +55,7 @@ border-radius:10px;
 color: white;}
 
 .tag-section{max-width: 1000px;
-position: fixed;
+position:absolute;
 top: 100px;
 left: 100px;}
 
@@ -69,3 +68,19 @@ background-color: #eeeeee;}
 .pointer{cursor: pointer;}
 
 .tags:hover{background-color: #ccc;}
+
+.thumbnail{width: 300px;}
+
+main{position: absolute;
+top: 150px;
+left: 95px;
+background-color: #f0eeee;}
+
+.text{margin-left: 65px;}
+
+
+footer{position: absolute;}
+
+.name{width: 100% ;
+height: 50px;
+padding: 10px;}
